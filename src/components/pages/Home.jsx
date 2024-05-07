@@ -8,13 +8,15 @@ const Home = () => {
       <div className="flex h-screen items-center">
         <div className="w-full flex flex-col lg:w-3/4 px-4 py-8">
           <h1 className="text-4xl font-bold">FIND MOVIES</h1>
-          <span className="text-4xl font-bold pt-[8px]">TV SHOWS AND MORE</span>
-          <span className="text-xl w-full lg:w-3/4 pt-[8px]">
+          <span className="text-4xl lg:text-5xl font-bold pt-[8px] bg-gradient-to-r from-[#2203FF] to-[#C40D60] text-transparent bg-clip-text">
+            TV SHOWS AND MORE
+          </span>
+          <span className=" w-full lg:w-3/4 pt-[8px]">
             Lorem Ipsum has been the industry's standard dummy text ever since
             the 1500s, when an unknown printer took a galley of type and
             scrambled it to make a type specimen book.
           </span>
-          <button className="w-[55%] border border-[white] py-2 px-4 rounded-md relative overflow-hidden flex items-center mt-[10px]">
+          <button className="w-[55%] lg:w-[25%] border border-[white] py-1 px-4 rounded-md relative overflow-hidden flex items-center mt-[15px]">
             <div className="w-9 h-9 bg-white rounded-full flex items-center justify-center mr-2">
               <FontAwesomeIcon icon={faPlay} size="lg" className="text-black" />
             </div>
@@ -133,49 +135,49 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-between mt-[2rem]">
-          <span className="text-3xl">You May Like This</span>
+        <div className="flex justify-between mt-[4rem]">
+          <span className="text-4xl">You May Like This</span>
           <hr />
           <span className="text-3xl">See More</span>
         </div>
 
         <div className="flex gap-4 mt-[2rem]">
-          <div className="text-xl">
+          <div>
             <img src="./img/image 40.png" alt="image21" />
             <span>The Days</span>
             <div className="flex">
               2023<span className="ml-3 text-[#e50914]">.</span>104m
             </div>
           </div>
-          <div className="text-xl">
+          <div>
             <img src="./img/image 39.png" alt="image21" />
             <span>The Days</span>
             <div className="flex">
               2023<span className="ml-3 text-[#e50914]">.</span>104m
             </div>
           </div>
-          <div className="text-xl">
+          <div>
             <img src="./img/image 38.png" alt="image21" />
             <span>The Days</span>
             <div className="flex">
               2023<span className="ml-3 text-[#e50914]">.</span>104m
             </div>
           </div>
-          <div className="text-xl">
+          <div>
             <img src="./img/image 37.png" alt="image21" />
             <span>The Days</span>
             <div className="flex">
               2023<span className="ml-3 text-[#e50914]">.</span>104m
             </div>
           </div>
-          <div className="text-xl">
+          <div>
             <img src="./img/Rectangle 10.png" alt="image21" />
             <span>The Days</span>
             <div className="flex">
               2023<span className="ml-3 text-[#e50914]">.</span>104m
             </div>
           </div>
-          <div  className="text-xl">
+          <div>
             <img src="./img/Rectangle 11.png" alt="image21" />
             <span>The Days</span>
             <div className="flex">
